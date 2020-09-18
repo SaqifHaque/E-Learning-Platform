@@ -1,0 +1,108 @@
+﻿@model MIdProject.Models.User
+
+@{
+    ViewBag.Title = "MyProfile";
+    if (Session["id"]==null)
+    {
+        Response.Redirect("/Home/Index");
+    }
+}
+
+<h2 style="text-align:center">MyProfile</h2>
+<hr />
+<div style="padding-left:40%;">
+
+    <table>
+        <dl>
+            <tr>
+                <td>
+            <dt>
+                @Html.DisplayNameFor(model => model.Name)
+            </dt>
+            </td>
+            <td>:</td>
+
+            <td>
+            <dd>
+                @Html.DisplayFor(model => model.Name)
+            </dd>
+            </td>
+
+            </tr>
+
+            <tr>
+                <td>
+            <dt>
+                @Html.DisplayNameFor(model => model.Email)
+            </dt>
+            </td>
+            <td>:</td>
+            <td>
+            <dd>
+                @Html.DisplayFor(model => model.Email)
+            </dd>
+            </td>
+            </tr>
+
+            <tr>
+                <td>
+            <dt>
+                @Html.DisplayNameFor(model => model.Type)
+            </dt>
+            </td>
+            <td>:</td>
+
+
+            <td>
+            <dd>
+                @Html.DisplayFor(model => model.Type)
+            </dd>
+            </td>
+            </tr>
+
+            <tr>
+                <td>
+            <dt>
+                @Html.DisplayNameFor(model => model.Status)
+            </dt>
+            </td>
+            <td>:</td>
+            <td>
+            <dd>
+                @Html.DisplayFor(model => model.Status)
+            </dd>
+            </td>
+            </tr>
+
+            <tr>
+                <td>
+            <dt>
+                @Html.DisplayNameFor(model => model.Password)
+            </dt>
+            </td>
+            <td>:</td>
+            <td>
+            <dd>
+                @Html.DisplayFor(model => model.Password)
+            </dd>
+            </td>
+            </tr>
+        </dl>
+    </table>
+
+</div>
+<div style="padding-left:40%">
+    <table>
+        <tr>
+            <td>
+                <a class="btn btn-info" href="@Url.Action("Edit", "User", new { id = (int)Session["id"] })">Edit</a>
+                
+
+            </td>
+            <td>
+                <a class="btn btn-info" href="@Url.Action("Index", "Home")">Back</a>              
+            </td>
+        </tr>
+    </table>
+    
+</div>

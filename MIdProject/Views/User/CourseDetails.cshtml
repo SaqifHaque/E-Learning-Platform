@@ -1,0 +1,25 @@
+﻿@model dynamic
+@{
+    ViewBag.Title = "CourseDetails";
+    if (Session["id"]==null || Session["type"].ToString() !="Student")
+    {
+        Response.Redirect("/Home/Index");
+    }
+}
+
+<h2>Course Details</h2>
+
+
+<p>Course Name: @Model.coursedetails.C_Name </p>
+<p>Instructor Name: @Model.userdetails.Name </p>
+<p>Category: @Model.subjectdetails.S_Name </p>
+<p>Description: @Model.coursedetails.C_Description</p>
+<p>Price: @Model.coursedetails.Price</p>
+
+<div class="card-footer">
+    <a class="btn btn-primary" href="@Url.Action("AddToCart", "User", new { itemId=@Model.coursedetails.C_Id })">AddtoCart</a>
+</div>
+
+
+
+

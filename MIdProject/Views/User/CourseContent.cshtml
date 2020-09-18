@@ -1,0 +1,63 @@
+﻿@model IEnumerable<MIdProject.Models.ViewModels.ContentViewModel>
+@{
+    ViewBag.Title = "CourseContent";
+    var Cid = 0;
+   if (Session["id"]==null || Session["type"].ToString() !="Student")
+    {
+        Response.Redirect("/Home/Index");
+    }
+}
+
+<h2>CourseContent</h2>
+<a class="btn btn-info" href="@Url.Action("CourseContent", "User")">Contents</a>
+@foreach(var m in Model)
+{
+    Cid = (int)m.Course_Id;
+}
+<a class="btn btn-info" href="@Url.Action("Notice", "User",new {id = Cid })">Notice</a>
+<a class="btn btn-info" href="@Url.Action("ShowVideo", "User",new {id = Cid })">Videos</a>
+<a class="btn btn-info" href="@Url.Action("CheckMessages", "User")">Check Mail</a>
+
+<table class="table">
+    <tr>
+
+        <th>
+            C_Name
+        </th>
+        <th>
+            File_Name
+        </th>
+        <th>
+            Uploaded by
+        </th>
+        <th>
+            Download
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @item.Course_Name
+            </td>
+            <td>
+                @item.File_Name
+            </td>
+            <td>
+                @item.Instructor_Name
+            </td>
+            <td>
+                @using (Html.BeginForm("DownloadFile", "User", new { filePath = @item.File_Name }))
+                {
+                    <div>
+                        <input type="submit" name="name" value="Download" />
+                    </div>
+                }
+            </td>
+
+        </tr>
+    }
+
+</table>

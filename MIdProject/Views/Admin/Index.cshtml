@@ -1,0 +1,236 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    if (Session["id"]==null || Session["type"].ToString() !="Admin")
+    {
+        Response.Redirect("/Home/Index");
+    }
+}
+<script src="~/Scripts/chart/exporting.js"></script>
+<script src="~/Scripts/chart/highcharts.js"></script>
+
+
+<div class="row">
+    <div class="col-xl-3 col-md-6">
+        <div class="card bg-primary text-white mb-4">
+            <div class="card-body">
+                <b>Instructor  @Session["instructor"]</b>
+                
+            </div>
+            <div class="card-footer d-flex align-items-center justify-content-between">
+                <a class="small text-white stretched-link" href="/Admin/ManageInstructor">View Details</a>
+                <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-xl-3 col-md-6">
+        <div class="card bg-success text-white mb-4">
+            <div class="card-body"><b>Student  @Session["student"]</b></div>
+            <div class="card-footer d-flex align-items-center justify-content-between">
+                <a class="small text-white stretched-link" href="/Admin/ManageStudent">View Details</a>
+                <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-3 col-md-6">
+        <div class="card bg-danger text-white mb-4">
+            <div class="card-body"><b>Total Sale  @Session["amount"] Taka</b></div>
+            <div class="card-footer d-flex align-items-center justify-content-between">
+                <a class="small text-white stretched-link" href="/Admin/Financials">View Details</a>
+                <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<figure class="highcharts-figure">
+    <div class="card-header">
+    </div>
+    <div id="container"></div>
+</figure>
+        
+
+
+        <script>
+
+            $(document).ready(function () {
+                $.getJSON("/Admin/GetData", function (data) {
+
+
+                    Highcharts.chart('container', {
+                        chart: {
+                            plotBackgroundColor: null,
+                            plotBorderWidth: null,
+                            plotShadow: false,
+                            type: 'pie'
+                        },
+                        title: {
+                            text: 'Users Ratio Of Porashuna'
+                        },
+                        tooltip: {
+                            pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+                        },
+                        accessibility: {
+                            point: {
+                                valueSuffix: '%'
+                            }
+                        },
+                        plotOptions: {
+                            pie: {
+                                allowPointSelect: true,
+                                cursor: 'pointer',
+                                dataLabels: {
+                                    enabled: true,
+                                    format: '<b>{point.name}</b>: {point.percentage:.1f} %'
+                                }
+                            }
+                        },
+                        series: [{
+                            name: 'User',
+                            colorByPoint: true,
+                            data: [{
+                                name: 'Instructor',
+                                y: data.Instructor
+                            }, {
+                                name: 'Student',
+                                y: data.Student
+                            }, {
+                                name: 'Admin',
+                                y: data.Admin
+                            }]
+                        }]
+                    });
+                });
+
+            });
+
+
+        </script>
+
+<figure class="highcharts-figure">
+    <div class="card-header"></div>
+    <div id="container-fluid"></div>
+</figure>
+
+            <script>
+
+                 $(document).ready(function () {
+                    $.getJSON("/Admin/EnrollData", function (data) {
+
+
+                        Highcharts.chart('container-fluid', {
+                            chart: {
+                                plotBackgroundColor: null,
+                                plotBorderWidth: null,
+                                plotShadow: false,
+                                type: 'pie'
+                            },
+                            title: {
+                                text: 'Enrolling Ratio of Courses'
+                            },
+                            tooltip: {
+                                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+                            },
+                            accessibility: {
+                                point: {
+                                    valueSuffix: '%'
+                                }
+                            },
+                            plotOptions: {
+                                pie: {
+                                    allowPointSelect: true,
+                                    cursor: 'pointer',
+                                    dataLabels: {
+                                        enabled: true,
+                                        format: '<b>{point.name}</b>: {point.percentage:.1f} %'
+                                    }
+                                }
+                            },
+                            series: [{
+                                name: 'Courses',
+                                colorByPoint: true,
+                                data: [{
+                                    name: data.Name1,
+                                    y: data.one
+                                }, {
+                                    name: data.Name2,
+                                    y: data.two
+                                }, {
+                                    name: data.Name3,
+                                    y: data.three
+                                }, {
+                                    name: data.Name4,
+                                    y: data.four
+                                }, {
+                                    name: data.Name5,
+                                    y: data.five
+                                }]
+                            }]
+                        });
+                    });
+
+                });
+
+            </script>
+        
+
+<figure class="highcharts-figure">
+    <div class="card-header">
+    </div>
+    <div id="footer"></div>
+</figure>
+
+        <script>
+
+            $(document).ready(function () {
+                $.getJSON("/Admin/FinancialData", function (data) {
+
+
+                    Highcharts.chart('footer', {
+                        chart: {
+                            plotBackgroundColor: null,
+                            plotBorderWidth: null,
+                            plotShadow: false,
+                            type: 'pie'
+                        },
+                        title: {
+                            text: 'Profit Ratio of Courses'
+                        },
+                        tooltip: {
+                            pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+                        },
+                        accessibility: {
+                            point: {
+                                valueSuffix: '%'
+                            }
+                        },
+                        plotOptions: {
+                            pie: {
+                                allowPointSelect: true,
+                                cursor: 'pointer',
+                                dataLabels: {
+                                    enabled: true,
+                                    format: '<b>{point.name}</b>: {point.percentage:.1f} %'
+                                }
+                            }
+                        },
+                        series: [{
+                            name: 'Finance',
+                            colorByPoint: true,
+                            data: [{
+                                name: 'Profit',
+                                y: data.Prof
+                            }, {
+                                name: 'Amount',
+                                y: data.Amount
+                            }]
+                        }]
+                    });
+                });
+
+            });
+
+
+        </script>
+     

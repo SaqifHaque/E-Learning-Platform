@@ -1,0 +1,26 @@
+﻿@model MIdProject.Models.Notice
+@{
+    ViewBag.Title = "PostNotice";
+    if (Session["id"]==null || Session["type"].ToString() !="Instructor")
+    {
+        Response.Redirect("/Home/Index");
+    }
+}
+
+<h2>PostNotice</h2>
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="form-group">
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Notice1, new { htmlAttributes = new { @class = "form-control", placeholder = "Write Something...." } })
+            @Html.ValidationMessageFor(model => model.Notice1, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Post" class="btn btn-info" />
+        </div>
+    </div>
+}

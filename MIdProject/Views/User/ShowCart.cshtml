@@ -1,0 +1,63 @@
+﻿@model IEnumerable<MIdProject.Models.ViewModels.CartViewModel>
+
+@{
+    ViewBag.Title = "ShowCart";
+    double Totalamount = 0.0;
+    if (Session["id"]==null || Session["type"].ToString() !="Student")
+    {
+        Response.Redirect("/Home/Index");
+    }
+}
+
+<h2>ShowCart</h2>
+
+<div>
+    <h4>Cart</h4>
+    <a class="btn btn-info" href="@Url.Action("RemoveCart", "User")">Remove Cart</a>
+    <hr />
+    @if ((int)Session["Counter"] == 0)
+    {
+        <h4>Your Cart is Empty!</h4>
+    }
+    else
+    {
+        <table class="table" border="1">
+            <tr>
+                <th>
+                    Id
+                </th>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Name
+                </th>
+            </tr>
+            @foreach (var item in Model)
+            {
+
+                <tr>
+                    <td>
+                        @item.Cart_Id
+                    </td>
+                    <td>
+                        @item.C_Name
+                    </td>
+                    <td>
+                        @item.Price
+                    </td>
+
+                </tr>
+                Totalamount += item.Price;
+            }
+
+        </table>
+    }
+    <h4>@TempData["Cart"]</h4>
+    <h2>Total Price= @Totalamount</h2>
+</div>
+
+<p>  
+    @Html.ActionLink("Checkout", "CheckOut")
+</p>
+

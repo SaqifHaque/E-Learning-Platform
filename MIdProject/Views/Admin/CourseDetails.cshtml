@@ -1,0 +1,90 @@
+﻿@model IEnumerable<MIdProject.Models.ViewModels.CourseViewModel>
+
+@{
+    ViewBag.Title = "CourseDetails";
+    if (Session["id"]==null || Session["type"].ToString() !="Admin")
+    {
+        Response.Redirect("/Home/Index");
+    }
+}
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Courses</title>
+</head>
+<body class="sb-nav-fixed">
+    
+        <div id="layoutSidenav_content">
+            <main>
+                <div class="container-fluid">
+                    <h1 class="mt-4">Course Informations</h1>
+                    <ol class="breadcrumb mb-4">
+                        <li class="breadcrumb-item"><a href="Index">Dashboard</a></li>
+                        <li class="breadcrumb-item active">TeacherTable</li>
+                    </ol>
+                    <div>
+                        <a href="@Url.Action("CreateCourse", "Admin")"><b>Add New Courses</b></a>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                
+                                <thead>
+                                    <tr>
+                                        <th>Course Name</th>
+                                        <th>Instructor Name</th>
+                                        <th>Category</th>
+                                        <th>Description</th>
+                                        <th>Status</th>
+                                        <th>Fee</th>
+                                    </tr>
+
+                                </thead>
+
+                                @foreach (var item in Model)
+                                {
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.C_Name)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Instructor_Name)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.SubjectName)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.C_Description)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Status)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Price)
+                                            </td>
+                                            <td>
+                                                @Html.ActionLink("Edit", "CourseEdit", new { id = item.Id })
+
+                                           
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                }
+                                
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>  
+</body>
+</html>
+

@@ -1,0 +1,75 @@
+﻿@model IEnumerable<MIdProject.Models.Cours>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Jumbotron Header -->
+        <header class="jumbotron my-4">
+            <h6 style="text-align:center" class="text-light">Welcome to </h6>
+            <h2 style="text-align:center" class="display-4 text-light">American International University-Bangladesh on Porashuna</h2>
+            <p style="text-align:center" class="text-light">Start learning on Porashuna!</p>
+            <div class="center">
+                @if (Session["id"] == null)
+                {
+                    <a href="@Url.Action("Signup", "Home")" class="btn btn-primary btn-lg" cente>Join For Free!</a>
+                }
+                else
+                {
+                    <a>Welcome, @Session["uname"]</a>
+                    <p style="text-align:center" class="text-light">Welcome, @Session["uname"]</p>
+                }
+            </div>
+
+        </header>
+        <div class="row text-center">
+
+            @foreach (var item in Model)
+            {
+                <!-- Page Features -->
+                <div class="col-lg-3 col-md-6 mb-2">
+                    <div class="card h-100">
+                        <img class="card-img-top" src="~/Uploaded/Course/@item.C_Image" alt="http://placehold.it/500x325">
+                        <div class="card-body">
+                            <h4 class="card-title">@item.C_Name</h4>
+
+                            <p class="card-text">@item.C_Description</p>
+                        </div>
+                        <div class="card-footer">
+                            @if (Session["id"] == null)
+                            {
+                                <a class="btn btn-info" href="@Url.Action("CourseDetails", "User")">Find Out More!</a>
+
+                            }
+                            else if (Session["id"] != null && Session["type"].ToString() == "Instructor")
+                            {
+
+
+                            }
+                            else if (Session["id"] != null && Session["type"].ToString() == "Student")
+                            {
+                                <a class="btn btn-info" href="@Url.Action("CourseContent", "User", new { id = item.C_Id})">Course Content</a>
+
+                            }
+
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+        <!-- /.container -->
+        <!-- Footer -->
+
+</body>
+
+</html>
+
+

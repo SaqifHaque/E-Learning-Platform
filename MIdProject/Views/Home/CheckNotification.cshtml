@@ -1,0 +1,29 @@
+﻿@model IEnumerable<MIdProject.Models.Notification>
+
+@{
+    ViewBag.Title = "CheckNotification";
+    if (Session["id"]==null)
+    {
+        Response.Redirect("/Home/Index");
+    }
+}
+
+<h2>CheckNotification</h2>
+<table class="table">
+    <tr>
+        <th>
+            Notifications
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @item.Notify_Name  
+            @item.Notify_No
+            @item.AddedOn
+        </td>
+    </tr>
+}
+
+</table>

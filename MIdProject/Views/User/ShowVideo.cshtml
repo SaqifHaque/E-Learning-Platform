@@ -1,0 +1,19 @@
+﻿@model IEnumerable<MIdProject.Models.Video>
+@{
+    ViewBag.Title = "ShowVideo";
+    if (Session["id"]==null || Session["type"].ToString() !="Student")
+    {
+        Response.Redirect("/Home/Index");
+    }
+}
+
+<h2>ShowVideo</h2>
+
+@foreach (var m in Model)
+{
+    <h4>@m.Video_Name</h4>
+    <h6>@m.Video_Description</h6>
+    <video width="320" height="240" controls>
+        <source src="~/Uploaded/Videos/@m.Video_Name" type="video/mp4">
+    </video>
+}

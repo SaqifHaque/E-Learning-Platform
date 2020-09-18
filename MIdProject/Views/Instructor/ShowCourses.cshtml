@@ -1,0 +1,46 @@
+﻿@model IEnumerable<MIdProject.Models.Cours>
+
+@{
+    ViewBag.Title = "ShowCourses";
+    if (Session["id"]==null || Session["type"].ToString() !="Instructor")
+    {
+        Response.Redirect("/Home/Index");
+    }
+}
+
+    <html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Instructor's Courses</title>
+    </head>
+    <body>
+
+        <h2 style="text-align:center">Show Courses</h2>
+        <hr />
+        <div class="row text-center">
+
+            @foreach (var item in Model)
+            {
+                <!-- Page Features -->
+                <div class="col-lg-3 col-md-6 mb-2">
+                    <div class="card h-100">
+                        <img class="card-img-top" src="http://placehold.it/500x325" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">@item.C_Name</h4>
+
+                            <p class="card-text">@item.C_Description</p>
+                        </div>
+                        <div class="card-footer">
+
+                            <a class="btn btn-info" href="@Url.Action("CourseDetails", "Instructor", new { id = item.C_Id })">Find More Info!</a>
+                            <a class="btn btn-info" href="@Url.Action("UploadContent", "Instructor", new { id = item.C_Id })">Add Content</a>
+                            <a class="btn btn-info" href="@Url.Action("UploadVideos", "Instructor", new { id = item.C_Id })">Add Videos</a>
+                            <a class="btn btn-info" href="@Url.Action("CheckMessages", "Instructor", new { id = item.C_Id } )">Check Messages</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+
+    </body>
+    </html>

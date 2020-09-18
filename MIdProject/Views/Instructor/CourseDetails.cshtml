@@ -1,0 +1,59 @@
+﻿@model dynamic
+@{
+    ViewBag.Title = "CourseDetails";
+    if (Session["id"]==null || Session["type"].ToString() !="Instructor")
+    {
+        Response.Redirect("/Home/Index");
+    }
+}
+
+    <a class="btn btn-info" href="@Url.Action("PostNotice", "Instructor",new {id = Model.coursedetails.C_Id })">Post Notice</a>
+    <html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Course Details</title>
+    </head>
+    <body>
+        <h2>CourseDetails</h2>
+
+        <hr />
+        <div style="padding-left:10%;display:inline-block">
+            <h5><p>Course Name: @Model.coursedetails.C_Name </p></h5>
+            <h5><p>Instructor Name: @Model.userdetails.Name </p></h5>
+            <h5><p>Description: @Model.coursedetails.C_Description</p></h5>
+            
+
+        </div>
+        
+        <hr />
+        <p><h3 style="padding-left:20%">Student List</h3></p>
+        <div style="padding-left:20%">
+
+            <table border="1">
+                <tr>
+                    <th>Student Email</th>
+                    <th>Enrollment Date</th>
+                    <th>Completion Date</th>
+                </tr>
+                @foreach (var student in Model.studentlist)
+                {
+                    <tr>
+                        <td>
+                            <h6>@student.Student_Email</h6>
+                        </td>
+                        <td>
+                            <p>@student.Date_Of_Enrollment</p>
+                        </td>
+                        <td>
+                            <p>@student.Date_Of_Completion</p>
+                        </td>
+                    </tr>
+                    
+                }
+            </table>
+        </div>
+
+
+    </body>
+    </html>
+

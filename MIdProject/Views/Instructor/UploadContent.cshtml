@@ -1,0 +1,53 @@
+﻿@model IEnumerable<MIdProject.Models.ViewModels.ContentViewModel>
+
+@{
+    ViewBag.Title = "UploadContent";
+    if (Session["id"]==null || Session["type"].ToString() !="Instructor")
+    {
+        Response.Redirect("/Home/Index");
+    }
+}
+
+<h2>UploadContent</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+           File_Name
+        </th>
+        <th>
+            C_Name
+        </th>
+        <th>
+            Uploaded By
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+<tr>
+    <td>
+        @item.File_Name
+    </td>
+    <td>
+        @item.Course_Name
+    </td>
+    <td>
+        @item.File_Name
+    </td>
+
+
+</tr>
+}
+
+</table>
+
+
+@using (Html.BeginForm("UploadContent","Instructor",FormMethod.Post, new {enctype = "multipart/form-data" }))
+{
+    <div>
+        <input type="file" name="file" value="" />
+        <input type="submit" name="name" value="Submit" />
+    </div>
+}

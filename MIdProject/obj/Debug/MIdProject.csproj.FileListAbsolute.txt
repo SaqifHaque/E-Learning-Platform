@@ -1,0 +1,263 @@
+D:\.net\MIdProject\MIdProject\bin\MIdProject.dll.config
+D:\.net\MIdProject\MIdProject\bin\MIdProject.dll
+D:\.net\MIdProject\MIdProject\bin\MIdProject.pdb
+D:\.net\MIdProject\MIdProject\bin\roslyn\csc.exe
+D:\.net\MIdProject\MIdProject\bin\roslyn\csc.exe.config
+D:\.net\MIdProject\MIdProject\bin\roslyn\csc.rsp
+D:\.net\MIdProject\MIdProject\bin\roslyn\csi.exe
+D:\.net\MIdProject\MIdProject\bin\roslyn\csi.exe.config
+D:\.net\MIdProject\MIdProject\bin\roslyn\csi.rsp
+D:\.net\MIdProject\MIdProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\.net\MIdProject\MIdProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\.net\MIdProject\MIdProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\.net\MIdProject\MIdProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\.net\MIdProject\MIdProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\.net\MIdProject\MIdProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\.net\MIdProject\MIdProject\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\.net\MIdProject\MIdProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\.net\MIdProject\MIdProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\.net\MIdProject\MIdProject\bin\roslyn\Microsoft.Managed.Core.targets
+D:\.net\MIdProject\MIdProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\.net\MIdProject\MIdProject\bin\roslyn\System.AppContext.dll
+D:\.net\MIdProject\MIdProject\bin\roslyn\System.Collections.Immutable.dll
+D:\.net\MIdProject\MIdProject\bin\roslyn\System.Console.dll
+D:\.net\MIdProject\MIdProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\.net\MIdProject\MIdProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\.net\MIdProject\MIdProject\bin\roslyn\System.IO.Compression.dll
+D:\.net\MIdProject\MIdProject\bin\roslyn\System.IO.FileSystem.dll
+D:\.net\MIdProject\MIdProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\.net\MIdProject\MIdProject\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\.net\MIdProject\MIdProject\bin\roslyn\System.IO.Pipes.dll
+D:\.net\MIdProject\MIdProject\bin\roslyn\System.Reflection.Metadata.dll
+D:\.net\MIdProject\MIdProject\bin\roslyn\System.Security.AccessControl.dll
+D:\.net\MIdProject\MIdProject\bin\roslyn\System.Security.Claims.dll
+D:\.net\MIdProject\MIdProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\.net\MIdProject\MIdProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\.net\MIdProject\MIdProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\.net\MIdProject\MIdProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\.net\MIdProject\MIdProject\bin\roslyn\System.Security.Principal.Windows.dll
+D:\.net\MIdProject\MIdProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\.net\MIdProject\MIdProject\bin\roslyn\System.ValueTuple.dll
+D:\.net\MIdProject\MIdProject\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\.net\MIdProject\MIdProject\bin\roslyn\System.Xml.XmlDocument.dll
+D:\.net\MIdProject\MIdProject\bin\roslyn\System.Xml.XPath.dll
+D:\.net\MIdProject\MIdProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\.net\MIdProject\MIdProject\bin\roslyn\vbc.exe
+D:\.net\MIdProject\MIdProject\bin\roslyn\vbc.exe.config
+D:\.net\MIdProject\MIdProject\bin\roslyn\vbc.rsp
+D:\.net\MIdProject\MIdProject\bin\roslyn\VBCSCompiler.exe
+D:\.net\MIdProject\MIdProject\bin\roslyn\VBCSCompiler.exe.config
+D:\.net\MIdProject\MIdProject\bin\EntityFramework.dll
+D:\.net\MIdProject\MIdProject\bin\EntityFramework.SqlServer.dll
+D:\.net\MIdProject\MIdProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\.net\MIdProject\MIdProject\bin\Microsoft.Web.Infrastructure.dll
+D:\.net\MIdProject\MIdProject\bin\System.Web.Helpers.dll
+D:\.net\MIdProject\MIdProject\bin\System.Web.Mvc.dll
+D:\.net\MIdProject\MIdProject\bin\System.Web.Razor.dll
+D:\.net\MIdProject\MIdProject\bin\System.Web.Webpages.Deployment.dll
+D:\.net\MIdProject\MIdProject\bin\System.Web.Webpages.dll
+D:\.net\MIdProject\MIdProject\bin\System.Web.Webpages.Razor.dll
+D:\.net\MIdProject\MIdProject\bin\EntityFramework.xml
+D:\.net\MIdProject\MIdProject\bin\EntityFramework.SqlServer.xml
+D:\.net\MIdProject\MIdProject\bin\System.Web.Razor.xml
+D:\.net\MIdProject\MIdProject\bin\System.Web.Webpages.xml
+D:\.net\MIdProject\MIdProject\bin\System.Web.Webpages.Deployment.xml
+D:\.net\MIdProject\MIdProject\bin\System.Web.Webpages.Razor.xml
+D:\.net\MIdProject\MIdProject\bin\System.Web.Helpers.xml
+D:\.net\MIdProject\MIdProject\bin\System.Web.Mvc.xml
+D:\.net\MIdProject\MIdProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\.net\MIdProject\MIdProject\obj\Debug\MIdProject.csproj.CoreCompileInputs.cache
+D:\.net\MIdProject\MIdProject\obj\Debug\MIdProject.csproj.CopyComplete
+D:\.net\MIdProject\MIdProject\obj\Debug\MIdProject.dll
+D:\.net\MIdProject\MIdProject\obj\Debug\MIdProject.pdb
+D:\.net\MIdProject\MIdProject\bin\Antlr3.Runtime.dll
+D:\.net\MIdProject\MIdProject\bin\Newtonsoft.Json.dll
+D:\.net\MIdProject\MIdProject\bin\System.Web.Optimization.dll
+D:\.net\MIdProject\MIdProject\bin\WebGrease.dll
+D:\.net\MIdProject\MIdProject\bin\Antlr3.Runtime.pdb
+D:\.net\MIdProject\MIdProject\bin\Newtonsoft.Json.xml
+D:\.net\MIdProject\MIdProject\bin\System.Web.Optimization.xml
+D:\.net\MIdProject\MIdProject\obj\Debug\MIdProject.csprojAssemblyReference.cache
+D:\.net\MIdProject\MIdProject\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\.net\MIdProject\MIdProject\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\.net\MIdProject\MIdProject\bin\Microsoft.Owin.dll
+D:\.net\MIdProject\MIdProject\bin\Microsoft.Owin.Security.dll
+D:\.net\MIdProject\MIdProject\bin\Owin.dll
+D:\.net\MIdProject\MIdProject\bin\Microsoft.AspNet.SignalR.Core.pdb
+D:\.net\MIdProject\MIdProject\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\.net\MIdProject\MIdProject\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+D:\.net\MIdProject\MIdProject\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\.net\MIdProject\MIdProject\bin\Microsoft.Owin.xml
+D:\.net\MIdProject\MIdProject\bin\Microsoft.Owin.Security.xml
+D:\.net\V4\MIdProject\MIdProject\obj\Debug\MIdProject.csproj.CoreCompileInputs.cache
+D:\.net\V4\MIdProject\MIdProject\obj\Debug\MIdProject.dll
+D:\.net\V4\MIdProject\MIdProject\obj\Debug\MIdProject.pdb
+D:\.net\V4\MIdProject\MIdProject\bin\MIdProject.dll.config
+D:\.net\V4\MIdProject\MIdProject\bin\MIdProject.dll
+D:\.net\V4\MIdProject\MIdProject\bin\MIdProject.pdb
+D:\.net\V4\MIdProject\MIdProject\bin\roslyn\csc.exe
+D:\.net\V4\MIdProject\MIdProject\bin\roslyn\csc.exe.config
+D:\.net\V4\MIdProject\MIdProject\bin\roslyn\csc.rsp
+D:\.net\V4\MIdProject\MIdProject\bin\roslyn\csi.exe
+D:\.net\V4\MIdProject\MIdProject\bin\roslyn\csi.exe.config
+D:\.net\V4\MIdProject\MIdProject\bin\roslyn\csi.rsp
+D:\.net\V4\MIdProject\MIdProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\.net\V4\MIdProject\MIdProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\.net\V4\MIdProject\MIdProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\.net\V4\MIdProject\MIdProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\.net\V4\MIdProject\MIdProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\.net\V4\MIdProject\MIdProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\.net\V4\MIdProject\MIdProject\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\.net\V4\MIdProject\MIdProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\.net\V4\MIdProject\MIdProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\.net\V4\MIdProject\MIdProject\bin\roslyn\Microsoft.Managed.Core.targets
+D:\.net\V4\MIdProject\MIdProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\.net\V4\MIdProject\MIdProject\bin\roslyn\System.AppContext.dll
+D:\.net\V4\MIdProject\MIdProject\bin\roslyn\System.Collections.Immutable.dll
+D:\.net\V4\MIdProject\MIdProject\bin\roslyn\System.Console.dll
+D:\.net\V4\MIdProject\MIdProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\.net\V4\MIdProject\MIdProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\.net\V4\MIdProject\MIdProject\bin\roslyn\System.IO.Compression.dll
+D:\.net\V4\MIdProject\MIdProject\bin\roslyn\System.IO.FileSystem.dll
+D:\.net\V4\MIdProject\MIdProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\.net\V4\MIdProject\MIdProject\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\.net\V4\MIdProject\MIdProject\bin\roslyn\System.IO.Pipes.dll
+D:\.net\V4\MIdProject\MIdProject\bin\roslyn\System.Reflection.Metadata.dll
+D:\.net\V4\MIdProject\MIdProject\bin\roslyn\System.Security.AccessControl.dll
+D:\.net\V4\MIdProject\MIdProject\bin\roslyn\System.Security.Claims.dll
+D:\.net\V4\MIdProject\MIdProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\.net\V4\MIdProject\MIdProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\.net\V4\MIdProject\MIdProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\.net\V4\MIdProject\MIdProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\.net\V4\MIdProject\MIdProject\bin\roslyn\System.Security.Principal.Windows.dll
+D:\.net\V4\MIdProject\MIdProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\.net\V4\MIdProject\MIdProject\bin\roslyn\System.ValueTuple.dll
+D:\.net\V4\MIdProject\MIdProject\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\.net\V4\MIdProject\MIdProject\bin\roslyn\System.Xml.XmlDocument.dll
+D:\.net\V4\MIdProject\MIdProject\bin\roslyn\System.Xml.XPath.dll
+D:\.net\V4\MIdProject\MIdProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\.net\V4\MIdProject\MIdProject\bin\roslyn\vbc.exe
+D:\.net\V4\MIdProject\MIdProject\bin\roslyn\vbc.exe.config
+D:\.net\V4\MIdProject\MIdProject\bin\roslyn\vbc.rsp
+D:\.net\V4\MIdProject\MIdProject\bin\roslyn\VBCSCompiler.exe
+D:\.net\V4\MIdProject\MIdProject\bin\roslyn\VBCSCompiler.exe.config
+D:\.net\V4\MIdProject\MIdProject\bin\Antlr3.Runtime.dll
+D:\.net\V4\MIdProject\MIdProject\bin\EntityFramework.dll
+D:\.net\V4\MIdProject\MIdProject\bin\EntityFramework.SqlServer.dll
+D:\.net\V4\MIdProject\MIdProject\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\.net\V4\MIdProject\MIdProject\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\.net\V4\MIdProject\MIdProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\.net\V4\MIdProject\MIdProject\bin\Microsoft.Web.Infrastructure.dll
+D:\.net\V4\MIdProject\MIdProject\bin\Newtonsoft.Json.dll
+D:\.net\V4\MIdProject\MIdProject\bin\System.Web.Helpers.dll
+D:\.net\V4\MIdProject\MIdProject\bin\System.Web.Mvc.dll
+D:\.net\V4\MIdProject\MIdProject\bin\System.Web.Optimization.dll
+D:\.net\V4\MIdProject\MIdProject\bin\System.Web.Razor.dll
+D:\.net\V4\MIdProject\MIdProject\bin\System.Web.Webpages.Deployment.dll
+D:\.net\V4\MIdProject\MIdProject\bin\System.Web.Webpages.dll
+D:\.net\V4\MIdProject\MIdProject\bin\System.Web.Webpages.Razor.dll
+D:\.net\V4\MIdProject\MIdProject\bin\WebGrease.dll
+D:\.net\V4\MIdProject\MIdProject\bin\Antlr3.Runtime.pdb
+D:\.net\V4\MIdProject\MIdProject\bin\EntityFramework.xml
+D:\.net\V4\MIdProject\MIdProject\bin\EntityFramework.SqlServer.xml
+D:\.net\V4\MIdProject\MIdProject\bin\Microsoft.AspNet.SignalR.Core.pdb
+D:\.net\V4\MIdProject\MIdProject\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\.net\V4\MIdProject\MIdProject\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+D:\.net\V4\MIdProject\MIdProject\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\.net\V4\MIdProject\MIdProject\bin\Newtonsoft.Json.xml
+D:\.net\V4\MIdProject\MIdProject\bin\System.Web.Optimization.xml
+D:\.net\V4\MIdProject\MIdProject\bin\System.Web.Razor.xml
+D:\.net\V4\MIdProject\MIdProject\bin\System.Web.Webpages.xml
+D:\.net\V4\MIdProject\MIdProject\bin\System.Web.Webpages.Deployment.xml
+D:\.net\V4\MIdProject\MIdProject\bin\System.Web.Webpages.Razor.xml
+D:\.net\V4\MIdProject\MIdProject\bin\System.Web.Helpers.xml
+D:\.net\V4\MIdProject\MIdProject\bin\System.Web.Mvc.xml
+D:\.net\V4\MIdProject\MIdProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\.net\V4\MIdProject\MIdProject\obj\Debug\MIdProject.csproj.CopyComplete
+D:\.net\V4\MIdProject\MIdProject\obj\Debug\MIdProject.csprojAssemblyReference.cache
+F:\ATP 2\V4\MIdProject\MIdProject\obj\Debug\MIdProject.csprojAssemblyReference.cache
+F:\ATP 2\V4\MIdProject\MIdProject\obj\Debug\MIdProject.csproj.CoreCompileInputs.cache
+F:\ATP 2\V4\MIdProject\MIdProject\obj\Debug\MIdProject.dll
+F:\ATP 2\V4\MIdProject\MIdProject\obj\Debug\MIdProject.pdb
+F:\ATP 2\V4\MIdProject\MIdProject\bin\MIdProject.dll.config
+F:\ATP 2\V4\MIdProject\MIdProject\bin\MIdProject.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\MIdProject.pdb
+F:\ATP 2\V4\MIdProject\MIdProject\bin\roslyn\csc.exe
+F:\ATP 2\V4\MIdProject\MIdProject\bin\roslyn\csc.exe.config
+F:\ATP 2\V4\MIdProject\MIdProject\bin\roslyn\csc.rsp
+F:\ATP 2\V4\MIdProject\MIdProject\bin\roslyn\csi.exe
+F:\ATP 2\V4\MIdProject\MIdProject\bin\roslyn\csi.exe.config
+F:\ATP 2\V4\MIdProject\MIdProject\bin\roslyn\csi.rsp
+F:\ATP 2\V4\MIdProject\MIdProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\ATP 2\V4\MIdProject\MIdProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\roslyn\Microsoft.Managed.Core.targets
+F:\ATP 2\V4\MIdProject\MIdProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\ATP 2\V4\MIdProject\MIdProject\bin\roslyn\System.AppContext.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\roslyn\System.Collections.Immutable.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\roslyn\System.Console.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\roslyn\System.IO.Compression.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\roslyn\System.IO.FileSystem.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\roslyn\System.IO.Pipes.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\roslyn\System.Reflection.Metadata.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\roslyn\System.Security.AccessControl.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\roslyn\System.Security.Claims.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\roslyn\System.Security.Principal.Windows.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\roslyn\System.ValueTuple.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\roslyn\System.Xml.XmlDocument.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\roslyn\System.Xml.XPath.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\roslyn\vbc.exe
+F:\ATP 2\V4\MIdProject\MIdProject\bin\roslyn\vbc.exe.config
+F:\ATP 2\V4\MIdProject\MIdProject\bin\roslyn\vbc.rsp
+F:\ATP 2\V4\MIdProject\MIdProject\bin\roslyn\VBCSCompiler.exe
+F:\ATP 2\V4\MIdProject\MIdProject\bin\roslyn\VBCSCompiler.exe.config
+F:\ATP 2\V4\MIdProject\MIdProject\bin\Antlr3.Runtime.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\EntityFramework.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\EntityFramework.SqlServer.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\Microsoft.AspNet.SignalR.Core.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\Microsoft.Web.Infrastructure.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\Newtonsoft.Json.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\System.Web.Helpers.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\System.Web.Mvc.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\System.Web.Optimization.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\System.Web.Razor.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\System.Web.Webpages.Deployment.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\System.Web.Webpages.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\System.Web.Webpages.Razor.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\WebGrease.dll
+F:\ATP 2\V4\MIdProject\MIdProject\bin\Antlr3.Runtime.pdb
+F:\ATP 2\V4\MIdProject\MIdProject\bin\EntityFramework.xml
+F:\ATP 2\V4\MIdProject\MIdProject\bin\EntityFramework.SqlServer.xml
+F:\ATP 2\V4\MIdProject\MIdProject\bin\Microsoft.AspNet.SignalR.Core.pdb
+F:\ATP 2\V4\MIdProject\MIdProject\bin\Microsoft.AspNet.SignalR.Core.xml
+F:\ATP 2\V4\MIdProject\MIdProject\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+F:\ATP 2\V4\MIdProject\MIdProject\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+F:\ATP 2\V4\MIdProject\MIdProject\bin\Newtonsoft.Json.xml
+F:\ATP 2\V4\MIdProject\MIdProject\bin\System.Web.Optimization.xml
+F:\ATP 2\V4\MIdProject\MIdProject\bin\System.Web.Razor.xml
+F:\ATP 2\V4\MIdProject\MIdProject\bin\System.Web.Webpages.xml
+F:\ATP 2\V4\MIdProject\MIdProject\bin\System.Web.Webpages.Deployment.xml
+F:\ATP 2\V4\MIdProject\MIdProject\bin\System.Web.Webpages.Razor.xml
+F:\ATP 2\V4\MIdProject\MIdProject\bin\System.Web.Helpers.xml
+F:\ATP 2\V4\MIdProject\MIdProject\bin\System.Web.Mvc.xml
+F:\ATP 2\V4\MIdProject\MIdProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\ATP 2\V4\MIdProject\MIdProject\obj\Debug\MIdProject.csproj.CopyComplete

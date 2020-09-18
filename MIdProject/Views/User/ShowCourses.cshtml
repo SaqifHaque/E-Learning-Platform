@@ -1,0 +1,33 @@
+﻿@model IEnumerable<MIdProject.Models.Cours>
+
+@{
+    ViewBag.Title = "ShowCourses";
+    if (Session["id"]==null || Session["type"].ToString() !="Student")
+    {
+        Response.Redirect("/Home/Index");
+    }
+}
+
+<h2>ShowCourses</h2>
+<body>
+<div class="row text-center">
+
+    @foreach (var item in Model)
+    {
+        <!-- Page Features -->
+        <div class="col-lg-3 col-md-6 mb-2">
+            <div class="card h-100">
+                <img class="card-img-top" src="http://placehold.it/500x325" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">@item.C_Name</h4>
+
+                    <p class="card-text">@item.C_Description</p>
+                </div>
+                <div class="card-footer">
+                    <a class="btn btn-info" href="@Url.Action("CourseDetails", "User", new { id = item.C_Id })">Find Out More Info!</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+</body>

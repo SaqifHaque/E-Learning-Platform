@@ -1,0 +1,30 @@
+﻿@model  IEnumerable<MIdProject.Models.Notice>
+@{
+    ViewBag.Title = "Notice";
+    if (Session["id"]==null || Session["type"].ToString() !="Student")
+    {
+        Response.Redirect("/Home/Index");
+    }
+}
+<h2>Notice</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            Notice
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @item.Notice1
+            </td>
+        </tr>
+    }
+
+</table>
+
+
+

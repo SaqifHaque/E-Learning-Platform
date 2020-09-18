@@ -1,0 +1,59 @@
+﻿@model IEnumerable<MIdProject.Models.Email>
+
+@{
+    ViewBag.Title = "CheckMessages";
+    if (Session["id"] == null || Session["type"].ToString() != "Student")
+    {
+        Response.Redirect("/Home/Index");
+    }
+}
+
+<h2>CheckMessages</h2>
+
+<div style="display:inline-block">
+    @Html.ActionLink("Contact With Facult", "SendMessage", new { id = Session["subject_id"] })
+
+</div>
+
+<div style="display:inline-block">
+    @Html.ActionLink("Sent Messages", "CheckSentMessages", new { id = Session["subject_id"] })
+</div>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.sender)
+        </th>
+
+        <th>
+            @Html.DisplayNameFor(model => model.message)
+        </th>
+
+        <th>
+            Action
+        </th>
+
+
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.sender)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.message)
+            </td>
+
+            <td>
+                @Html.ActionLink("Reply", "SendMessage", new { id = item.Couse_Id}) |
+
+                @Html.ActionLink("Delete", "DeleteMessage", new { id = item.id }, new { onclick = "return confirm('Are sure you want to delete?');" })
+            </td>
+        </tr>
+    }
+
+</table>

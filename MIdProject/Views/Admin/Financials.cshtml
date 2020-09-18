@@ -1,0 +1,55 @@
+﻿@model IEnumerable<MIdProject.Models.Financial>
+
+@{
+    ViewBag.Title = "Financials";
+    if (Session["id"]==null || Session["type"].ToString() !="Admin")
+    {
+        Response.Redirect("/Home/Index");
+    }
+}
+
+<h2>Financials Documents</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Courses)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Paid_By)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Amount)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Profit)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Invoice.Items)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Courses)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Paid_By)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Amount)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Profit)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Invoice.Items)
+        </td>
+        
+    </tr>
+}
+
+</table>
